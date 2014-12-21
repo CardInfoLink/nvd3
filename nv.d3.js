@@ -5600,7 +5600,7 @@ nv.models.lineChart = function() {
       // Setup Axes
 
       if (showXAxis) {
-        var ticks = data[0].values.length > (availableWidth / 100) ? (availableWidth / 100) : data[0].values.length;
+        var ticks = data[0].values.length > (availableWidth / 200) ? (availableWidth / 200) : data[0].values.length;
         xAxis
           .scale(x)
           .ticks( ticks )
